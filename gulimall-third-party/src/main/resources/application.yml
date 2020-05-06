@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    cos:
+      secretId: AKIDuYUA4i3DBviFXdc2b6TjphGiTcZKh7Bx
+      secretKey: f4bmlVzDE0XQM8e196oGw51jAWbimaCX
+      region: ap-nanjing
+      bucket: gulimall-1300628930
+  application:
+    name: gulimall-third-party
+  jackson:
+    time-zone: Asia/Shanghai
+server:
+  port: 30000
+
